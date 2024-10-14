@@ -1,8 +1,8 @@
-# NSE Stock Price & PE Ratio Checker
+# NSE Stock Price & News Checker
 
 ## Overview
 
-NSE Stock Price & PE Ratio Checker is a Chrome extension that allows users to quickly fetch the current stock price and recent news for companies listed on the National Stock Exchange (NSE) of India. The extension uses data from Google Finance to provide up-to-date information.
+NSE Stock Price & News Checker is a Chrome extension that allows users to quickly fetch the current stock price and recent news for companies listed on the National Stock Exchange (NSE) of India. The extension uses data from Google Finance to provide up-to-date information.
 
 ## Features
 
@@ -59,4 +59,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Disclaimer
 
-This extension is for educational purposes only. Stock prices and news are fetched from Google Finance, and the accuracy of the data is not guaranteed. Always verify information from official sources before making any financial decisions.
+This extension is for educational purposes only. Stock prices and news are fetched from Google Finance.
