@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NSE Stock Price & News Checker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      width: 300px;
+      background-color: #f0f0f0;
+    }
+    h1, h2 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .input-group {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    #companyInput {
+      flex-grow: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px 0 0 4px;
+    }
+    #checkStock {
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    #checkStock:hover {
+      background-color: #45a049;
+    }
+    #message {
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      display: none;
+    }
+    .info {
+      background-color: #d9edf7;
+      color: #31708f;
+    }
+    .error {
+      background-color: #f2dede;
+      color: #a94442;
+    }
+    #result {
+      background-color: white;
+      padding: 15px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: none;
+    }
+    #result p {
+      margin: 10px 0;
+    }
+    #result strong {
+      color: #333;
+    }
+    #price {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    #newsList {
+      padding-left: 20px;
+    }
+    #newsList li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>NSE Stock Checker</h1>
+  <div class="input-group">
+    <input type="text" id="companyInput" placeholder="Enter NSE company name" />
+    <button id="checkStock">Check</button>
+  </div>
+
+  <div id="message"></div>
+
+  <div id="result">
+    <h2>Stock Information</h2>
+    <p><strong>Stock Price:</strong> <span id="price"></span></p>
+    
+    <h2>Recent News</h2>
+    <ul id="newsList"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

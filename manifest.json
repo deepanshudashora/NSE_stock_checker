@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "NSE Stock Price & PE Ratio Checker",
+    "version": "1.3",
+    "description": "Fetches current stock price and PE ratio for NSE-listed companies from Google Finance.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "NSE Stock Checker"
+    },
+    "permissions": [
+        "activeTab",
+        "https://www.google.com/"
+      ],
+    "host_permissions": [
+      "https://www.google.com/"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
