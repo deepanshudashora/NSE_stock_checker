@@ -26,6 +26,10 @@ NSE Stock Price & PE Ratio Checker is a Chrome extension that allows users to qu
 3. Click the "Check" button or press Enter.
 4. The current stock price and recent news will be displayed.
 
+## Sample Output
+
+![images](sample_output.png)
+
 ## Files
 
 - `manifest.json`: Defines the extension's properties and permissions.
