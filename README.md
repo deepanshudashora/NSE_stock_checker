@@ -28,7 +28,9 @@ NSE Stock Price & PE Ratio Checker is a Chrome extension that allows users to qu
 
 ## Sample Output
 
-![images](sample_output.png)
+<p align="center">
+  <img src="images/sample_output.png" alt="Alt text">
+</p>
 
 ## Files
 
